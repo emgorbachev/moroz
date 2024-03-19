@@ -1,0 +1,8 @@
+---
+# tasks file for deploy_nginx
+
+- name: install nginx
+  yum:  name=nginx
+
+- name: Start nginx \ enable
+  service: name=nginx state=started enabled=no

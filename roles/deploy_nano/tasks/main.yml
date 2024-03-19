@@ -1,0 +1,5 @@
+---
+# tasks file for deploy_nano
+
+- name: install nano
+  yum:  name=nano
